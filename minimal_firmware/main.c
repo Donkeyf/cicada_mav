@@ -2,7 +2,7 @@
 Author: Dilon Hewamanna
 Date: 31/02/26
 
-main file for blinking an LED on flight controller
+basic firmware code
 
 TODO:
   Double check that H7 has 150 additional peripheral handlers
