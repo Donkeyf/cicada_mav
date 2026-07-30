@@ -9,13 +9,17 @@ TODO:
   Learn how to properly define memory sections in linker file
 */
 #include "stm32h743xx.h"
-#include "stm32h7xx.h"
 #include <stdint.h>
 #include <stdbool.h>
+#include <stddef.h>
 
 #define BIT(x) (1UL << (x))
 
 
+static volatile uint32_t s_ticks; // volatile is important!!
+void SysTick_Handler(void) {
+  s_ticks++;
+}
 
 
 ///////              RESET HANDLER (MAKE SURE TO CHECK JUST THIS ON BOARD)
@@ -48,14 +52,7 @@ static inline void systick_init(uint32_t ticks) {
   SysTick->LOAD = ticks - 1;
   SysTick->VAL = 0;
   SysTick->CTRL = BIT(0) | BIT(1) | BIT(2);
-  RCC->APB4ENR = BIT(1);
 
-}
-
-
-static volatile uint32_t s_ticks; // volatile is important!!
-void SysTick_Handler(void) {
-  s_ticks++;
 }
 
 
@@ -67,54 +64,40 @@ bool timer_expired(uint32_t *t, uint32_t prd, uint32_t now) {
   return true;                                   // Expired, return true
 }
 
-static inline int uart_read_ready(USART_TypeDef *uart) {
-  return uart->ISR & BIT(5); //if RXNE bit is set, data is ready
-}
 
-static inline uint8_t uart_read_byte(USART_TypeDef *uart) {
-  return (uint8_t) (uart->RDR & 255);
-}
-
-static inline void uart_write_byte(USART_TypeDef *uart, uint8_t byte) {
-  uart->TDR = byte;
-  while ((uart->ISR & BIT(7)) == 0) spin(1);
-}
-
-static inline void uart_write_buf(USART_TypeDef *uart, char *buf, size_t len) {
-  while (len-- > 0) uart_write_byte(uart, *(uint8_t *) buf++);
-}
 
 
 int main(void){
 
-  uint16_t led_red = 0;
-  uint16_t led_blue = 1;
-  RCC->AHB4ENR |= BIT(2);    // enable GPIOC
-  GPIOC->MODER &= (3U << (led_blue * 2));   // clear existing setting
-  GPIOC->MODER |= (1U << (led_blue * 2));   // set output
-  GPIOC->BSRR = (1U << led_blue) << 0;   // set high    
-
   uint16_t debug_tx = 12; // UART5 on PB12 and PB13
   uint16_t debug_rx = 13; 
-  RCC->APB1LENR != BIT(20);
-  GPIOB->AFRH &= ~(15UL << ((12 - 8) * 4)); // zero pin 12 (bit 16)
-  GPIOB->AFRH &= ~(15UL << ((13 - 8) * 4)); // zero pin 13 (bit 20)
-  GPIOB->AFRH |= (14UL << ((12 - 8) * 4));  // set alternate function AF14
-  GPIOB->AFRH |= (14UL << ((13 - 8) * 4));
+  RCC->APB1LENR |= BIT(20);
+  RCC->AHB4ENR |= BIT(1);
+
+  GPIOB->MODER &= ~(3UL << (12 * 2)); // set GPIOB mode to alt function
+  GPIOB->MODER |=  (2UL << (12 * 2));
+  GPIOB->MODER &= ~(3UL << (13 * 2));
+  GPIOB->MODER |=  (2UL << (13 * 2));
+
+  GPIOB->AFR[1] &= ~(15UL << ((12 - 8) * 4)); // zero pin 12 (bit 16)
+  GPIOB->AFR[1] &= ~(15UL << ((13 - 8) * 4)); // zero pin 13 (bit 20)
+  GPIOB->AFR[1] |= (14UL << ((12 - 8) * 4));  // set alternate function AF14
+  GPIOB->AFR[1] |= (14UL << ((13 - 8) * 4));
+  RCC->D2CCIP2R &= ~(7UL << 0); // clear bits 2:0
+  RCC->D2CCIP2R |=  (3UL << 0); // set HSI to time UART5
+
   UART5->CR1 = 0;
-  UART5->BRR = 480000000 / 115200;  // set baudrate (CHANGE IF NEEDED) freq/baud
-   UART5->CR1 |= BIT(0) | BIT(2) | BIT(3);
+  UART5->BRR = 64000000 / 115200;  // set baudrate (CHANGE IF NEEDED) freq/baud
+  UART5->CR1 |= BIT(2) | BIT(3);
+  UART5->CR1 |= BIT(0);
 
-
-  systick_init(480000000 / 1000);
-
-  uint32_t timer, period = 500;          // Declare timer and 500ms period
-  static bool on; 
-  for (;;) {
-    if (timer_expired(&timer, period, s_ticks)) {
-            // This block is executed
-      GPIOC->BSRR = (1U << led_blue) << (on ? 0 : 16);  // Every `period` milliseconds
-      on = !on;             // Toggle LED state
+  systick_init(64000000 / 1000);
+  uint32_t timer = 0, period = 500; 
+  for(;;) {
+    if (timer_expired(&timer, period, s_ticks)){
+      uart_write_buf(UART5, "hi\r\n", 4);
     }
+  }
+  return 0;
 }
 

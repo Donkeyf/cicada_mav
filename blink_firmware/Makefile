@@ -1,9 +1,6 @@
-CFLAGS  ?=  -W -Wall -Wextra -Werror -Wundef -Wshadow -Wdouble-promotion \
-            -Wformat-truncation -fno-common -Wconversion \
-            -g3 -Os -ffunction-sections -fdata-sections -I. \
-            -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 $(EXTRA_CFLAGS)
+CFLAGS  ?= -I. -IInclude/CMSIS/Include -IInclude/CMSIS/Device/ST/STM32H7xx/Include
 LDFLAGS ?= -Tlink.ld -nostartfiles -nostdlib --specs nano.specs -lc -lgcc -Wl,--gc-sections -Wl,-Map=$@.map
-SOURCES = main.c 
+SOURCES = led_on.c 
 
 ifeq ($(OS),Windows_NT)
   RM = cmd /C del /Q /F

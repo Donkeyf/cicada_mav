@@ -1,0 +1,84 @@
+
+Discarded input sections
+
+ .data          0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccAhg2Lz.o
+ .bss           0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccAhg2Lz.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+flash            0x08000000         0x00200000         xr
+dtcm_ram         0x20000000         0x00020000         xrw
+sram_d1          0x24000000         0x00080000         xrw
+sram_d2          0x30000000         0x00048000         xrw
+sram_d3          0x38000000         0x00010000         xrw
+sram_d4          0x38800000         0x00001000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:\Users\sally\AppData\Local\Temp\ccAhg2Lz.o
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib\libc_nano.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1\libgcc.a
+                0x20020000                _estack = (ORIGIN (dtcm_ram) + LENGTH (dtcm_ram))
+
+.vectors        0x08000000      0x298
+ *(.vectors)
+ .vectors       0x08000000      0x298 C:\Users\sally\AppData\Local\Temp\ccAhg2Lz.o
+                0x08000000                tab
+
+.text           0x08000298      0x1fc
+ *(.text*)
+ .text          0x08000298      0x1fc C:\Users\sally\AppData\Local\Temp\ccAhg2Lz.o
+                0x08000298                _reset
+                0x08000338                timer_expired
+                0x08000410                main
+
+.glue_7         0x08000494        0x0
+ .glue_7        0x08000494        0x0 linker stubs
+
+.glue_7t        0x08000494        0x0
+ .glue_7t       0x08000494        0x0 linker stubs
+
+.vfp11_veneer   0x08000494        0x0
+ .vfp11_veneer  0x08000494        0x0 linker stubs
+
+.v4_bx          0x08000494        0x0
+ .v4_bx         0x08000494        0x0 linker stubs
+
+.iplt           0x08000494        0x0
+ .iplt          0x08000494        0x0 C:\Users\sally\AppData\Local\Temp\ccAhg2Lz.o
+
+.rel.dyn        0x08000494        0x0
+ .rel.iplt      0x08000494        0x0 C:\Users\sally\AppData\Local\Temp\ccAhg2Lz.o
+
+.rodata
+ *(.rodata*)
+
+.data           0x24000000        0x0 load address 0x08000494
+                0x24000000                _sdata = .
+ *(.first_data)
+ *(.data SORT_BY_NAME(.data.*))
+                0x24000000                _edata = .
+                0x08000494                _sidata = LOADADDR (.data)
+
+.igot.plt       0x24000000        0x0 load address 0x08000494
+ .igot.plt      0x24000000        0x0 C:\Users\sally\AppData\Local\Temp\ccAhg2Lz.o
+
+.bss            0x24000000        0x0 load address 0x08000494
+                0x24000000                _sbss = .
+ *(.bss SORT_BY_NAME(.bss.*) COMMON)
+                0x24000000                _ebss = .
+                0x24000000                . = ALIGN (0x8)
+                0x24000000                _end = .
+OUTPUT(firmware.elf elf32-littlearm)
+LOAD linker stubs
+
+.comment        0x00000000       0x49
+ .comment       0x00000000       0x49 C:\Users\sally\AppData\Local\Temp\ccAhg2Lz.o
+                                 0x4a (size before relaxing)
+
+.ARM.attributes
+                0x00000000       0x2a
+ .ARM.attributes
+                0x00000000       0x2a C:\Users\sally\AppData\Local\Temp\ccAhg2Lz.o

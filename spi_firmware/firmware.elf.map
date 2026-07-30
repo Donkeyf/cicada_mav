@@ -1,0 +1,255 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+                              C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o (memcpy)
+c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+                              C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o (memset)
+
+Discarded input sections
+
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .text          0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .data          0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .bss           0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .text          0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .data          0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .bss           0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .debug_macro   0x00000000      0xa6c C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .debug_macro   0x00000000       0x3b C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .debug_macro   0x00000000       0x22 C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .debug_macro   0x00000000       0x8e C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .debug_macro   0x00000000       0x51 C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .debug_macro   0x00000000      0x103 C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .debug_macro   0x00000000       0x6a C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .debug_macro   0x00000000      0x1df C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .debug_macro   0x00000000       0x1c C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .debug_macro   0x00000000       0x22 C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .debug_macro   0x00000000       0xfb C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .debug_macro   0x00000000     0x1305 C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .debug_macro   0x00000000      0x11f C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .debug_macro   0x00000000       0x27 C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .debug_macro   0x00000000    0x258f9 C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .debug_macro   0x00000000      0x174 C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .debug_macro   0x00000000       0x22 C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+flash            0x08000000         0x00200000         xr
+dtcm_ram         0x20000000         0x00020000         xrw
+sram_d1          0x24000000         0x00080000         xrw
+sram_d2          0x30000000         0x00048000         xrw
+sram_d3          0x38000000         0x00010000         xrw
+sram_d4          0x38800000         0x00001000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+LOAD C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a
+LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a
+                0x20020000                _estack = (ORIGIN (dtcm_ram) + LENGTH (dtcm_ram))
+
+.vectors        0x08000000      0x298
+ *(.vectors)
+ .vectors       0x08000000      0x298 C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+                0x08000000                tab
+
+.text           0x08000298      0x500
+ *(.text*)
+ .text.SysTick_Handler
+                0x08000298       0x10 C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+                0x08000298                SysTick_Handler
+ .text.uart_write_buf.constprop.0
+                0x080002a8       0x2c C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .text.timer_expired
+                0x080002d4       0x26 C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+                0x080002d4                timer_expired
+ *fill*         0x080002fa        0x2 
+ .text.startup.main
+                0x080002fc      0x19c C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+                0x080002fc                main
+ .text._reset   0x08000498       0x4c C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+                0x08000498                _reset
+ .text.spin     0x080004e4       0x12 C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ *fill*         0x080004f6        0x2 
+ .text.uart_write_buf.constprop.0
+                0x080004f8       0x28 C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .text.spi_transfer.constprop.0
+                0x08000520       0x5c C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .text.SPI_init
+                0x0800057c       0x74 C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+                0x0800057c                SPI_init
+ .text.read_PROM
+                0x080005f0       0x40 C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+                0x080005f0                read_PROM
+ .text.MS5611_init
+                0x08000630       0x8c C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+                0x08000630                MS5611_init
+ .text.read_MS5611_adc
+                0x080006bc       0xb0 C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+                0x080006bc                read_MS5611_adc
+ .text.memcpy   0x0800076c       0x1c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+                0x0800076c                memcpy
+ .text.memset   0x08000788       0x10 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+                0x08000788                memset
+
+.glue_7         0x08000798        0x0
+ .glue_7        0x08000798        0x0 linker stubs
+
+.glue_7t        0x08000798        0x0
+ .glue_7t       0x08000798        0x0 linker stubs
+
+.vfp11_veneer   0x08000798        0x0
+ .vfp11_veneer  0x08000798        0x0 linker stubs
+
+.v4_bx          0x08000798        0x0
+ .v4_bx         0x08000798        0x0 linker stubs
+
+.iplt           0x08000798        0x0
+ .iplt          0x08000798        0x0 C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+
+.rodata         0x08000798       0x14
+ *(.rodata*)
+ .rodata.main.str1.1
+                0x08000798       0x14 C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .rodata.MS5611_init.str1.1
+                0x080007ac        0x4 C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+
+.rel.dyn        0x080007ac        0x0
+ .rel.iplt      0x080007ac        0x0 C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+
+.data           0x24000000        0x0 load address 0x080007ac
+                0x24000000                _sdata = .
+ *(.first_data)
+ *(.data SORT_BY_NAME(.data.*))
+                0x24000000                _edata = .
+                0x080007ac                _sidata = LOADADDR (.data)
+
+.igot.plt       0x24000000        0x0 load address 0x080007ac
+ .igot.plt      0x24000000        0x0 C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+
+.bss            0x24000000        0x4 load address 0x080007ac
+                0x24000000                _sbss = .
+ *(.bss SORT_BY_NAME(.bss.*) COMMON)
+ .bss.s_ticks   0x24000000        0x4 C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+                0x24000004                _ebss = .
+                0x24000008                . = ALIGN (0x8)
+                0x24000008                _end = .
+OUTPUT(firmware.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x00000000     0x21cd
+ .debug_info    0x00000000     0x1009 C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .debug_info    0x00001009     0x11c4 C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+
+.debug_abbrev   0x00000000      0x599
+ .debug_abbrev  0x00000000      0x2dc C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .debug_abbrev  0x000002dc      0x2bd C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+
+.debug_loc      0x00000000      0xd3e
+ .debug_loc     0x00000000      0x4b3 C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .debug_loc     0x000004b3      0x88b C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+
+.debug_aranges  0x00000000       0x90
+ .debug_aranges
+                0x00000000       0x40 C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .debug_aranges
+                0x00000040       0x50 C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+
+.debug_ranges   0x00000000      0x260
+ .debug_ranges  0x00000000       0xd0 C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .debug_ranges  0x000000d0      0x190 C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+
+.debug_macro    0x00000000    0x280f1
+ .debug_macro   0x00000000      0x107 C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .debug_macro   0x00000107      0xa6c C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .debug_macro   0x00000b73       0x3b C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .debug_macro   0x00000bae       0x22 C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .debug_macro   0x00000bd0       0x8e C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .debug_macro   0x00000c5e       0x51 C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .debug_macro   0x00000caf      0x103 C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .debug_macro   0x00000db2       0x6a C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .debug_macro   0x00000e1c      0x1df C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .debug_macro   0x00000ffb       0x1c C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .debug_macro   0x00001017       0x22 C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .debug_macro   0x00001039       0xfb C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .debug_macro   0x00001134     0x1305 C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .debug_macro   0x00002439      0x11f C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .debug_macro   0x00002558       0x27 C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .debug_macro   0x0000257f    0x258f9 C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .debug_macro   0x00027e78       0x22 C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .debug_macro   0x00027e9a      0x174 C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .debug_macro   0x0002800e       0xe3 C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+
+.debug_line     0x00000000      0xe78
+ .debug_line    0x00000000      0x661 C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .debug_line    0x00000661      0x817 C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+
+.debug_str      0x00000000    0xe5d3b
+ .debug_str     0x00000000    0xe5ce6 C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+                              0xe5f9a (size before relaxing)
+ .debug_str     0x000e5ce6       0x55 C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+                              0xe5ebe (size before relaxing)
+
+.comment        0x00000000       0x49
+ .comment       0x00000000       0x49 C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+                                 0x4a (size before relaxing)
+ .comment       0x00000049       0x4a C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+
+.ARM.attributes
+                0x00000000       0x34
+ .ARM.attributes
+                0x00000000       0x34 C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .ARM.attributes
+                0x00000034       0x34 C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .ARM.attributes
+                0x00000068       0x34 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x0000009c       0x34 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+
+.debug_frame    0x00000000      0x198
+ .debug_frame   0x00000000       0x80 C:\Users\sally\AppData\Local\Temp\ccSz4LGC.o
+ .debug_frame   0x00000080       0xd0 C:\Users\sally\AppData\Local\Temp\ccdgJvhh.o
+ .debug_frame   0x00000150       0x28 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x00000178       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)

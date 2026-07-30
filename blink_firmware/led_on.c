@@ -15,13 +15,6 @@ TODO:
 #define BIT(x) (1UL << (x))
 
 
-
-static volatile uint32_t s_ticks; // volatile is important!!
-void SysTick_Handler(void) {
-  s_ticks++;
-}
-
-
 ///////              RESET HANDLER (MAKE SURE TO CHECK JUST THIS ON BOARD)
 // Startup code
 __attribute__((noreturn)) void _reset(void) {
@@ -38,7 +31,7 @@ extern void _estack(void);  // Defined in link.ld
 
 // 16 standard and 150 STM32-specific handlers
 __attribute__((section(".vectors"))) void (*const tab[16 + 150])(void) = {
-  _estack, _reset, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, SysTick_Handler};
+  _estack, _reset, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 
 
 static inline void spin(volatile uint32_t count) {
@@ -65,27 +58,35 @@ bool timer_expired(uint32_t *t, uint32_t prd, uint32_t now) {
 
 
 
-int main(void){
-  SCB->VTOR = (uint32_t)tab;
+// int main(void){
 
-  uint16_t led_red = 0;
-  uint16_t led_blue = 1;
+//   uint16_t led_red = 0;
+//   uint16_t led_blue = 1;
 
-  RCC->AHB4ENR |= BIT(2);    // enable GPIOC
-  GPIOC->MODER &= ~(3U << (led_blue * 2));   // clear existing setting
-  GPIOC->MODER |= (1U << (led_blue * 2));   // set output
-  GPIOC->BSRR = (1U << led_blue) << 0;   // set high    
+//   RCC->AHB4ENR |= BIT(2);    // enable GPIOC
+//   GPIOC->MODER &= ~(3U << (led_blue * 2));   // clear existing setting
+//   GPIOC->MODER |= (1U << (led_blue * 2));   // set output
+//   GPIOC->BSRR = (1U << led_blue) << 0;   // set high    
+//   }
 
-  systick_init(64000000 / 1000);
+  int main(void)
+{
+    // Enable GPIOC clock
+    RCC->AHB4ENR |= RCC_AHB4ENR_GPIOCEN;
 
-  uint32_t timer = 0, period = 500;          // Declare timer and 500ms period
-  for (;;) {
-    if (timer_expired(&timer, period, s_ticks)) {
-      static bool on = false;       // This block is executed
-      on = !on;             // Toggle LED 
-      
-      if(on) GPIOC->BSRR = (1U << led_blue);
-      else GPIOC->BSRR = (1U << (led_blue + 16));
-    }
-    }
-  }
+    // Wait for clock enable to take effect
+    volatile uint32_t temp = RCC->AHB4ENR;
+    (void)temp;
+
+    // PC1 output mode
+    GPIOC->MODER &= ~(3UL << (1 * 2));  // clear mode
+    GPIOC->MODER |=  (1UL << (1 * 2));  // output mode
+
+    // Push-pull
+    GPIOC->OTYPER &= ~(1UL << 1);
+
+    // Set PC1 high
+    GPIOC->BSRR = (1UL << 1);
+
+    while(1);
+}
