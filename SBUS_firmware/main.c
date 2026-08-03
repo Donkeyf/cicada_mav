@@ -19,6 +19,7 @@ TODO:
 #define ACCEL_CSB 2
 #define UART_RX 12
 #define UART_TX 13
+#define BLUE 1
 
 #define BIT(x) (1UL << (x))
 
@@ -26,12 +27,6 @@ TODO:
 static volatile uint32_t s_ticks; // volatile is important!!
 void SysTick_Handler(void) {
   s_ticks++;
-}
-
-void HardFault_Handler(void){
-  while(1){
-    uart_write_buf(UART5,"bi\r\n",4);
-  }
 }
 
 
@@ -43,7 +38,7 @@ __attribute__((naked, noreturn)) void _reset(void) {
   for (long *dst = &_sbss; dst < &_ebss; dst++) *dst = 0;
   for (long *dst = &_sdata, *src = &_sidata; dst < &_edata;) *dst++ = *src++;
 
-  SCB->VTOR = (uint32_t)tab;
+
   main();             // Call main()
   for (;;) (void) 0;  // Infinite loop in the case if main() returns
 }
@@ -52,7 +47,7 @@ extern void _estack(void);  // Defined in link.ld
 
 // 16 standard and 150 STM32-specific handlers
 __attribute__((section(".vectors"))) void (*const tab[16 + 150])(void) = {
-  _estack, _reset, 0, HardFault_Handler, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, SysTick_Handler
+  _estack, _reset, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, SysTick_Handler
 };
 
 
@@ -77,26 +72,33 @@ bool timer_expired(uint32_t *t, uint32_t prd, uint32_t now) {
 
 int main(void){
   SCB->VTOR = (uint32_t)tab;
+
+  // RCC->APB1LENR |= BIT(20);
+  // RCC->AHB4ENR |= BIT(1);    // enable GPIOC
+  // gpio_set_mode(GPIOB, UART_TX, 2);
+  // gpio_set_mode(GPIOB, UART_RX, 2);
+  // gpio_set_afr(GPIOB, UART_TX, 14);
+  // gpio_set_afr(GPIOB, UART_RX, 14);
+  // RCC->D2CCIP2R &= ~(7UL << 0); // set pclk1 as timing uart
+  // uart_init(UART5, 120000000 / 115200);
+
+  RCC->AHB4ENR |= BIT(2);
+  gpio_set_mode(GPIOC, BLUE, 1UL);
+  
   cpu_max_init();
 
-  RCC->APB1LENR |= BIT(20);
-  RCC->AHB4ENR |= BIT(1);    // enable GPIOC
-  gpio_set_mode(GPIOB, UART_TX, 2);
-  gpio_set_mode(GPIOB, UART_RX, 2);
-  gpio_set_afr(GPIOB, UART_TX, 14);
-  gpio_set_afr(GPIOB, UART_RX, 14);
-  RCC->D2CCIP2R &= ~(7UL << 0); // set pclk1 as timing uart
+  //gpio_write(GPIOC, 1, true);
+  
 
-  uart_init(UART5, 120000000 / 115200);
-
-
-  systick_init(480000000 / 1000);
-  uint32_t timer = 0, period = 500; 
-  for(;;) {
-    if (timer_expired(&timer, period, s_ticks)){
-      uart_write_buf(UART5, "hi\r\n", 4);
-    }
-  }
-  return 0;
+  // systick_init(480000000 / 1000);
+  // uint32_t timer = 0, period = 1000; 
+  // bool on = false;
+  // for(;;) {
+  //   if (timer_expired(&timer, period, s_ticks)){
+  //     on = !on;
+  //     gpio_write(GPIOC, BLUE, on);
+  //   }
+  // }
+  // return 0;
 }
 
