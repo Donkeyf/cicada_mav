@@ -73,6 +73,7 @@ static inline uint8_t spi_read_byte(SPI_TypeDef *spi){
 }
 
 static inline void spi_write_byte(SPI_TypeDef *spi, uint8_t byte){
+    spi->CR1 |= BIT(9);
     while (!(spi->SR & BIT(1)));
     spi->TXDR = byte;
     //(void)spi->RXDR; // discard received byte
@@ -87,18 +88,16 @@ static inline void spi_write_byte(SPI_TypeDef *spi, uint8_t byte){
 // }
 
 static inline uint8_t spi_transfer(SPI_TypeDef *spi, uint8_t byte, uint8_t cs){
-    gpio_write(GPIOB, cs, false);
     while (!(spi->SR & BIT(1))); // TXP
     *((volatile uint8_t *)&spi->TXDR) = byte;
     spi->CR1 |= BIT(9); // start
 
-    spin(100);
-    uint32_t sr = spi->SR;
-    uart_write_buf(UART5, (uint8_t)sr, 4);
     while (!(spi->SR & BIT(0))); // RXP
     uint8_t read = *((volatile uint8_t *)&spi->RXDR);
-    uart_write_buf(UART5, &read, 1);
-    gpio_write(GPIOB, cs, true);
+
+    while (!(spi->SR & BIT(3))); // wait for EOT to confirm transaction truly finished
+    spi->IFCR = BIT(4) | BIT(3); // clear EOT (bit9) and TXTF (bit3)
+
     return read;
 }
 

@@ -5,7 +5,7 @@ CFLAGS += -I. -IInclude/CMSIS/Include -IInclude/CMSIS/Device/ST/STM32H7xx/Includ
 CFLAGS += -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16
 LDFLAGS ?= -Tlink.ld -nostartfiles -nostdlib --specs nano.specs -lc -lgcc -Wl,--gc-sections -Wl,-Map=$@.map
 
-SOURCES = main.c spi.c
+SOURCES = main.c spi.c syscalls.c
 
 ifeq ($(OS),Windows_NT)
   RM = cmd /C del /Q /F
