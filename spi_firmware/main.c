@@ -114,9 +114,9 @@ int main(void){
   uint16_t calib[7] = {0};
   MS5611_init(SPI1, calib, BARO_CSB);  // init barometer
 
-  int32_t temperature;
-  temperature = read_MS5611_adc(SPI1, BARO_CSB, calib); 
-  printf("temp=%08lx\n", temperature);
+  int32_t* data[2];
+  read_MS5611_adc(SPI1, BARO_CSB, calib, data); 
+  printf("temp=%08lx, pressure=%08lx\n", data[0], data[1]);
 
   systick_init(64000000 / 1000);
   uint32_t timer = 0, period = 500; 

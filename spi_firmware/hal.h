@@ -104,7 +104,7 @@ static inline uint8_t spi_transfer(SPI_TypeDef *spi, uint8_t byte, uint8_t cs){
 uint16_t read_PROM(SPI_TypeDef *spi, uint8_t cmd, uint8_t cs);
 void SPI_init();
 void MS5611_init(SPI_TypeDef *spi, uint16_t *prom, uint8_t cs);
-int32_t read_MS5611_adc(SPI_TypeDef *spi, uint8_t cs, uint16_t *C);
+void read_MS5611_adc(SPI_TypeDef *spi, uint8_t cs, uint16_t *C, int32_t *data);
 
 
 
