@@ -28,6 +28,19 @@ void SysTick_Handler(void) {
   s_ticks++;
 }
 
+void DMA1_Stream0_IRQHandler(void){
+  if (DMA1->LISR & DMA_LISR_TCIF0){
+		DMA1->LIFCR = DMA_LIFCR_CTCIF0;	// clear DMA transfer complete flag
+		gpio_write(GPIOB, ACCEL_CSB, true);	// pull both high, not sure if can change this
+		gpio_write(GPIOB, GYRO_CSB, true);
+
+		while (!(spi->SR & BIT(3))); // wait for EOT to confirm transaction truly finished
+    spi->IFCR = BIT(4) | BIT(3); // clear EOT (bit9) and TXTF (bit3)
+
+		// TODO do accel and gyro
+	}
+}
+
 
 ///////              RESET HANDLER (MAKE SURE TO CHECK JUST THIS ON BOARD)
 // Startup code

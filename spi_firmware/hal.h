@@ -87,7 +87,7 @@ static inline void spi_write_byte(SPI_TypeDef *spi, uint8_t byte){
 //     return spi_read_byte(spi);
 // }
 
-static inline uint8_t spi_transfer(SPI_TypeDef *spi, uint8_t byte, uint8_t cs){
+static inline uint8_t spi_transfer(SPI_TypeDef *spi, uint8_t byte){
     while (!(spi->SR & BIT(1))); // TXP
     *((volatile uint8_t *)&spi->TXDR) = byte;
     spi->CR1 |= BIT(9); // start
