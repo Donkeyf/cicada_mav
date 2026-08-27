@@ -105,7 +105,11 @@ uint16_t read_PROM(SPI_TypeDef *spi, uint8_t cmd, uint8_t cs);
 void SPI_init();
 void MS5611_init(SPI_TypeDef *spi, uint16_t *prom, uint8_t cs);
 void read_MS5611_adc(SPI_TypeDef *spi, uint8_t cs, uint16_t *C, int32_t *data);
-
+void DMA_init(SPI_TypeDef *spi);
+void BMI088_init(SPI_TypeDef *spi, uint8_t cs_accel);
+void BMI_read_test(SPI_TypeDef *spi, uint8_t cs);
+void BMI088_read_data(SPI_TypeDef *spi, uint8_t* rx_buf, uint8_t* tx_buf, uint8_t buf_len, uint8_t cs, uint8_t reg);
+void cpu_max_init();
 
 
 #endif

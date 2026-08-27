@@ -28,16 +28,53 @@ void SysTick_Handler(void) {
   s_ticks++;
 }
 
+static uint8_t imu_type = 0;  // 0 = accel, 1 = gyro
+int16_t acc_x;
+int16_t acc_y;
+int16_t acc_z;
+int16_t gyro_x;
+int16_t gyro_y;
+int16_t gyro_z;
+uint8_t accel_rx_buf[8];
+uint8_t accel_tx_buf[8];
+uint8_t gyro_rx_buf[7];
+uint8_t gyro_tx_buf[7];
+
+void HardFault_Handler(void) {
+  printf("CFSR=%08lx, HFSR=%08lx, BFAR=%08lx\n", SCB->CFSR, SCB->CFSR, SCB->BFAR);
+}
+
 void DMA1_Stream0_IRQHandler(void){
   if (DMA1->LISR & DMA_LISR_TCIF0){
 		DMA1->LIFCR = DMA_LIFCR_CTCIF0;	// clear DMA transfer complete flag
-		gpio_write(GPIOB, ACCEL_CSB, true);	// pull both high, not sure if can change this
-		gpio_write(GPIOB, GYRO_CSB, true);
 
-		while (!(spi->SR & BIT(3))); // wait for EOT to confirm transaction truly finished
-    spi->IFCR = BIT(4) | BIT(3); // clear EOT (bit9) and TXTF (bit3)
+		while (!(SPI1->SR & BIT(3))); // wait for EOT to confirm transaction truly finished
+    SPI1->IFCR = 0xFFFFFFFF; // clear every latched SPI status flag;
 
 		// TODO do accel and gyro
+    if (imu_type == 0){
+      gpio_write(GPIOB, ACCEL_CSB, true);
+      acc_x = (int16_t)((accel_rx_buf[3] << 8) | accel_rx_buf[2]);
+      acc_y = (int16_t)((accel_rx_buf[5] << 8) | accel_rx_buf[4]);
+      acc_z = (int16_t)((accel_rx_buf[7] << 8) | accel_rx_buf[6]);
+      imu_type = 1;
+
+      printf("accx=%04lx, accy=%04lx, accz=%04lx\r\n", acc_x, acc_y, acc_z);
+      
+
+      BMI088_read_data(SPI1, gyro_rx_buf, gyro_tx_buf, 7, GYRO_CSB, 0x02);  // send for gyroscope reading
+      spin(10000);
+      printf("post-CSTART NDTR0=%lu NDTR1=%lu SR=%08lx\n", DMA1_Stream0->NDTR, DMA1_Stream1->NDTR, SPI1->SR);
+
+    } else {
+      gpio_write(GPIOB, GYRO_CSB, true);
+      gyro_x = (int16_t)((gyro_rx_buf[2] << 8) | gyro_rx_buf[1]);
+      gyro_y = (int16_t)((gyro_rx_buf[4] << 8) | gyro_rx_buf[3]);
+      gyro_z = (int16_t)((gyro_rx_buf[6] << 8) | gyro_rx_buf[5]);
+      imu_type = 0;
+
+      printf("gyrox=%04lx, gyroy=%04lx, gyroz=%04lx\r\n", gyro_x, gyro_y, gyro_z);
+    }
 	}
 }
 
@@ -56,9 +93,12 @@ __attribute__((naked, noreturn)) void _reset(void) {
 
 extern void _estack(void);  // Defined in link.ld
 
-// 16 standard and 150 STM32-specific handlers
 __attribute__((section(".vectors"))) void (*const tab[16 + 150])(void) = {
-  _estack, _reset, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, SysTick_Handler
+  [0]  = _estack,
+  [1]  = _reset,
+  [3] = HardFault_Handler,
+  [15] = SysTick_Handler,
+  [16 + DMA1_Stream0_IRQn] = DMA1_Stream0_IRQHandler,
 };
 
 
@@ -80,7 +120,33 @@ bool timer_expired(uint32_t *t, uint32_t prd, uint32_t now) {
   return true;                                   // Expired, return true
 }
 
+// for testing clock increase
+int main(void){
+  RCC->APB1LENR |= BIT(20);
+  RCC->AHB4ENR |= BIT(1);    // enable GPIOC
+  gpio_set_mode(GPIOB, UART_TX, 2);
+  gpio_set_mode(GPIOB, UART_RX, 2);
+  gpio_set_afr(GPIOB, UART_TX, 14);
+  gpio_set_afr(GPIOB, UART_RX, 14);
+  RCC->D2CCIP2R |=  (3UL << 0); // set HSI to time UART5
+  uart_init(UART5, 64000000 / 115200);
 
+  printf("yaahh\n");
+
+  cpu_max_init();
+
+  systick_init(480000000 / 1000);
+  uint32_t timer = 0, period = 1000; 
+  for(;;) {
+    if (timer_expired(&timer, period, s_ticks)){
+      printf("yaaaaaggg\n");
+    }
+  }
+  return 0;
+
+}
+
+/*
 int main(void){
   RCC->D1CCIPR &= ~(3UL << 0);
   RCC->D1CCIPR |= (0UL << 0); // 00 = hsi_ck selected as per_ck
@@ -131,6 +197,13 @@ int main(void){
   read_MS5611_adc(SPI1, BARO_CSB, calib, data); 
   printf("temp=%08lx, pressure=%08lx\n", data[0], data[1]);
 
+  DMA_init(SPI1);
+  BMI088_init(SPI1, ACCEL_CSB);
+  imu_type = 0;
+
+  // BMI_read_test(SPI1, ACCEL_CSB);
+  BMI088_read_data(SPI1, accel_rx_buf, accel_tx_buf, 8, ACCEL_CSB, 0x12);
+
   systick_init(64000000 / 1000);
   uint32_t timer = 0, period = 500; 
   for(;;) {
@@ -141,4 +214,4 @@ int main(void){
   }
   return 0;
 }
-
+*/

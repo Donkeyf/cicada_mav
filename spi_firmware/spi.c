@@ -49,12 +49,12 @@ void MS5611_init(SPI_TypeDef *spi, uint16_t *prom, uint8_t cs){
     spin(100000);
 
     // read calibration data
-    prom[1] = read_PROM(spi, 0xA2);
-    prom[2]= read_PROM(spi, 0xA4);
-    prom[3]= read_PROM(spi, 0xA6);
-    prom[4] = read_PROM(spi, 0xA8);
-    prom[5] = read_PROM(spi, 0xAA);
-    prom[6] = read_PROM(spi, 0xAC);
+    prom[1] = read_PROM(spi, 0xA2, cs);
+    prom[2]= read_PROM(spi, 0xA4, cs);
+    prom[3]= read_PROM(spi, 0xA6, cs);
+    prom[4] = read_PROM(spi, 0xA8, cs);
+    prom[5] = read_PROM(spi, 0xAA, cs);
+    prom[6] = read_PROM(spi, 0xAC, cs);
 }
 
 // make sure to change cs and data type
@@ -95,26 +95,33 @@ void read_MS5611_adc(SPI_TypeDef *spi, uint8_t cs, uint16_t *C, int32_t* data){
     // TODO second order conversion
 }
 
-void DMA_init(SPI_TypeDef *spi, uint32_t bmi_rx_buf, uint32_t bmi_tx_buf){
-    DMAMUX1_Channel0->CCR = 80; // SPI1 RX
-    DMAMUX1_Channel1->CCR = 81; // SPI1 TX
+void DMA_init(SPI_TypeDef *spi){
+    RCC->AHB1ENR |= BIT(0);
 
-    DMA1_Stream0->CR |= ~BIT(0);
-    DMA1_Stream0->CR |= ~BIT(1);
+    DMAMUX1_Channel0->CCR = 37; // SPI1 RX
+    DMAMUX1_Channel1->CCR = 38; // SPI1 TX
+
+    // enable direct mode
+    DMA1_Stream0->FCR &= ~BIT(2);
+    DMA1_Stream1->FCR &= ~BIT(2);
+
+
+    DMA1_Stream0->CR &= ~BIT(0);
+    DMA1_Stream0->CR &= ~BIT(1);
 
     DMA1_Stream0->PAR = (uint32_t)&spi->RXDR;
     DMA1_Stream1->PAR = (uint32_t)&spi->TXDR;
 
     // set peripheral size, memory size, direction (M to P), memory inc off
     DMA1_Stream1->CR &= ~(DMA_SxCR_MSIZE_Msk | DMA_SxCR_PSIZE_Msk | BIT(10) | DMA_SxCR_DIR_Msk);    
-    DMA1_Stream0->CR |= BIT(6);
+    DMA1_Stream1->CR |= BIT(6) | BIT(10);;
 
     // set peripheral size, memory size, direction (P to M), memory inc off
     DMA1_Stream0->CR &= ~(DMA_SxCR_MSIZE_Msk | DMA_SxCR_PSIZE_Msk | DMA_SxCR_DIR_Msk);    
     DMA1_Stream0->CR |= BIT(4) | BIT(10);
 
-    DMA1_Stream1->CR |= ~BIT(0);
-    DMA1_Stream1->CR |= ~BIT(1);
+    DMA1_Stream1->CR &= ~BIT(0);
+    DMA1_Stream1->CR &= ~BIT(1);
 
     NVIC_EnableIRQ(DMA1_Stream0_IRQn);
 }
@@ -125,16 +132,36 @@ void BMI088_init(SPI_TypeDef *spi, uint8_t cs_accel){
     spin(1000);
 
     gpio_write(GPIOB, cs_accel, false);
-    spi_transfer(spi, 0x7D & 4);
+    spi_transfer(spi, 0x7D);
+    spi_transfer(spi, 0x04);
     gpio_write(GPIOB, cs_accel, true);
     spin(500000);
 }
 
+void BMI_read_test(SPI_TypeDef *spi, uint8_t cs){
+    gpio_write(GPIOB, cs, false);
+    spi_transfer(spi,  0x12 | (1<<7));
+    spi_transfer(spi, 0x00);
+    uint8_t spi_test = 8;
+    spi_test = spi_transfer(spi, 0x00);
+    gpio_write(GPIOB, cs, true);
+
+    printf("wahhh\n");
+    printf("spi test = %08lx\n", spi_test);
+}
+
 
 void BMI088_read_data(SPI_TypeDef *spi, uint8_t* rx_buf, uint8_t* tx_buf, uint8_t buf_len, uint8_t cs, uint8_t reg){
-    bmi_tx_buf[0] = 0x80 | reg;    // read bit + reg address
-    bmi_tx_buf[1] =  0x00;  // dummy read byte
-    for (int i = 2; i < buf_len; i++) bmi_tx_buf[i] = 0x00; // dummy clocking bytes
+    tx_buf[0] = 0x80 | reg;    // read bit + reg address
+    tx_buf[1] =  0x00;  // dummy read byte
+    for (int i = 2; i < buf_len; i++) tx_buf[i] = 0x00; // dummy clocking bytes
+
+    // Change TSIZE
+    spi->CR1 &= ~BIT(0);
+    spi->CR2 &= ~SPI_CR2_TSIZE_Msk;
+    spi->CR2 |= buf_len;
+
+    printf("CR2=%08lx\n", spi->CR2);
 
     // SPI1 RX setup
     DMA1_Stream0->CR &= ~DMA_SxCR_EN;
@@ -151,12 +178,8 @@ void BMI088_read_data(SPI_TypeDef *spi, uint8_t* rx_buf, uint8_t* tx_buf, uint8_
     DMA1_Stream1->CR |= DMA_SxCR_EN;
 
     gpio_write(GPIOB, cs, false);
-    // Change TSIZE
-    spi->CR1 &= ~BIT(0);
-    spi->CR2 &= ~SPI_CR2_TSIZE_Msk;
-    spi->CR2 |= buf_len;
     spi->CR1 |= BIT(0); // enable spi
-
     spi->CR1 |= BIT(9); // start
     
+    // printf("AHB1ENR=%08lx\n", RCC->AHB1ENR);
 }
