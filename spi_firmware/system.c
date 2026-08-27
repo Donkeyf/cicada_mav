@@ -118,18 +118,19 @@ void cpu_max_init(){
     // intermediate prescaler when target freq higher than 80mhz
     RCC->D1CFGR &= ~RCC_D1CFGR_HPRE;
     RCC->D1CFGR |= RCC_D1CFGR_HPRE_DIV2;
-    RCC->CFGR &= ~RCC_CFGR_SW;
-    RCC->CFGR |= RCC_CFGR_SW_PLL1;
-    while ((RCC->CFGR & RCC_CFGR_SWS_Msk) == 0);
-    printf("HAHAHAHAAAAA\n");
 
     // set prescalers
-    
     RCC->D1CFGR &= ~RCC_D1CFGR_HPRE;
     RCC->D1CFGR |= RCC_D1CFGR_HPRE_DIV4;   
     RCC->D2CFGR &= ~RCC_D2CFGR_D2PPRE1;
     RCC->D2CFGR &= ~RCC_D2CFGR_D2PPRE2;
     RCC->D1CFGR &= ~RCC_D1CFGR_D1PPRE;
     RCC->D3CFGR &= ~RCC_D3CFGR_D3PPRE;
+
+    RCC->CFGR &= ~RCC_CFGR_SW;
+    RCC->CFGR |= RCC_CFGR_SW_PLL1;
+    printf("yahhhh\n");
+    gpio_write(GPIOC, 0, true);
+    while ((RCC->CFGR & RCC_CFGR_SWS_Msk) == 0);
 
 }   

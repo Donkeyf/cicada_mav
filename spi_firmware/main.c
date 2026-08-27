@@ -123,13 +123,16 @@ bool timer_expired(uint32_t *t, uint32_t prd, uint32_t now) {
 // for testing clock increase
 int main(void){
   RCC->APB1LENR |= BIT(20);
-  RCC->AHB4ENR |= BIT(1);    // enable GPIOC
+  RCC->AHB4ENR |= BIT(1);    // enable GPIOB
+  RCC->AHB4ENR |= BIT(2);    // enable GPIOC
+  gpio_set_mode(GPIOC, 0, 1); // set led output
   gpio_set_mode(GPIOB, UART_TX, 2);
   gpio_set_mode(GPIOB, UART_RX, 2);
   gpio_set_afr(GPIOB, UART_TX, 14);
   gpio_set_afr(GPIOB, UART_RX, 14);
-  RCC->D2CCIP2R |=  (3UL << 0); // set HSI to time UART5
-  uart_init(UART5, 64000000 / 115200);
+  gpio_write(GPIOC, 0, false);
+  RCC->D2CCIP2R &= 7U; // set HSI to time UART5
+  uart_init(UART5, 120000000 / 115200);
 
   printf("yaahh\n");
 
