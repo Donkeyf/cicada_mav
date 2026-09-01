@@ -19,6 +19,7 @@ TODO:
 #define ACCEL_CSB 2
 #define UART_RX 12
 #define UART_TX 13
+#define SBUS_RX 0
 
 #define BIT(x) (1UL << (x))
 
@@ -121,34 +122,19 @@ bool timer_expired(uint32_t *t, uint32_t prd, uint32_t now) {
   return true;                                   // Expired, return true
 }
 
-// // for testing clock increase
-// int main(void){
-//   RCC->APB1LENR |= BIT(20);
-//   RCC->AHB4ENR |= BIT(1);    // enable GPIOB
-//   RCC->AHB4ENR |= BIT(2);    // enable GPIOC
-//   gpio_set_mode(GPIOC, 0, 1); // set led output
-//   gpio_set_mode(GPIOB, UART_TX, 2);
-//   gpio_set_mode(GPIOB, UART_RX, 2);
-//   gpio_set_afr(GPIOB, UART_TX, 14);
-//   gpio_set_afr(GPIOB, UART_RX, 14);
-//   gpio_write(GPIOC, 0, false);
-//   RCC->D2CCIP2R &= 7U; // set HSI to time UART5
-//   uart_init(UART5, 120000000 / 115200);
+int main(void){
+  RCC->AHB4ENR |= BIT(4);
 
-//   printf("yaahh\n");
+  gpio_set_mode(GPIOE, SBUS_RX, 2); // set sbus alternate function
+  gpio_set_afr(GPIOE, SBUS_RX, 8);  // set uart8 rx
+  RCC->D2CCIP2R &= ~(7UL << 0);
+  RCC->APB1LENR |= BIT(31); // enable UART8 clock
 
-//   cpu_max_init();
+  cpu_max_init();
+  uart_init(UART8, 120000000 / 100000); // non standard baud rate for sbus
 
-//   systick_init(480000000 / 1000);
-//   uint32_t timer = 0, period = 1000; 
-//   for(;;) {
-//     if (timer_expired(&timer, period, s_ticks)){
-//       printf("yaaaaaggg\n");
-//     }
-//   }
-//   return 0;
 
-// }
+}
 
 
 int main(void){
@@ -209,6 +195,7 @@ int main(void){
       //temperature = read_MS5611_adc(SPI1, BARO_CSB, calib);
     }
   }
+  
       return 0;
 }
 

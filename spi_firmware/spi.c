@@ -8,7 +8,7 @@
 void SPI_init(){
     RCC->APB2ENR |= BIT(12);    // enable SPI1
     SPI1->CFG1 &= ~(7UL << 28); // reset baud rate
-    SPI1->CFG1 |= (4UL << 28);   // baud rate SPI master clock/32  
+    SPI1->CFG1 |= (2UL << 28);   // baud rate SPI master clock/32  
     SPI1->CFG1 |= BIT(15);
     SPI1->CFG1 |= BIT(14);  // enable DMA
 

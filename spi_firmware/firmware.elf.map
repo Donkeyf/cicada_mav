@@ -1,13 +1,13 @@
 Archive member included to satisfy reference by file (symbol)
 
 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
-                              C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o (memcpy)
+                              C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o (memcpy)
 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
-                              C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o (memset)
+                              C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o (memset)
 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-printf.o)
-                              C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o (printf)
+                              C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o (printf)
 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-puts.o)
-                              C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o (puts)
+                              C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o (puts)
 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wbuf.o)
                               c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-puts.o) (__swbuf_r)
 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wsetup.o)
@@ -65,158 +65,141 @@ c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-
 
 Discarded input sections
 
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .text          0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .data          0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .bss           0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .bss.accel_tx_buf
-                0x00000000        0x8 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .text          0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .data          0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .bss           0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .text.spin     0x00000000       0x12 C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .text.spi_transfer
-                0x00000000       0x2c C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .text.SPI_init
-                0x00000000       0x94 C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .text.read_PROM
-                0x00000000       0x34 C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .text.MS5611_init
-                0x00000000       0x7c C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .text.read_MS5611_adc
-                0x00000000      0x114 C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .text.DMA_init
-                0x00000000       0x94 C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .text.BMI088_init
-                0x00000000       0x40 C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .text          0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .data          0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .bss           0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .text          0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .data          0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .bss           0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
  .rodata.BMI_read_test.str1.1
-                0x00000000       0x18 C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
+                0x00000000       0x18 C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
  .text.BMI_read_test
-                0x00000000       0x4c C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .debug_macro   0x00000000      0xa6c C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .debug_macro   0x00000000       0x3b C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .debug_macro   0x00000000       0x22 C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .debug_macro   0x00000000       0x8e C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .debug_macro   0x00000000       0x51 C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .debug_macro   0x00000000      0x103 C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .debug_macro   0x00000000       0x6a C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .debug_macro   0x00000000      0x1df C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .debug_macro   0x00000000       0x1c C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .debug_macro   0x00000000       0x22 C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .debug_macro   0x00000000       0xfb C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .debug_macro   0x00000000     0x1305 C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .debug_macro   0x00000000      0x11f C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .debug_macro   0x00000000       0x27 C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .debug_macro   0x00000000    0x258f9 C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .debug_macro   0x00000000      0x174 C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .debug_macro   0x00000000       0x22 C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .text          0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .data          0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .bss           0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .debug_macro   0x00000000      0xa6c C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .debug_macro   0x00000000       0x3b C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .debug_macro   0x00000000       0x22 C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .debug_macro   0x00000000       0x8e C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .debug_macro   0x00000000       0x51 C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .debug_macro   0x00000000      0x103 C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .debug_macro   0x00000000       0x6a C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .debug_macro   0x00000000      0x1df C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .debug_macro   0x00000000       0x1c C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .debug_macro   0x00000000       0x22 C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .debug_macro   0x00000000       0xfb C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .debug_macro   0x00000000     0x1305 C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .debug_macro   0x00000000      0x11f C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .debug_macro   0x00000000       0x27 C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .debug_macro   0x00000000    0x258f9 C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .debug_macro   0x00000000      0x174 C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .debug_macro   0x00000000       0x22 C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .text          0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .data          0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .bss           0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .debug_macro   0x00000000      0xa6c C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .debug_macro   0x00000000       0x3b C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .debug_macro   0x00000000       0x22 C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .debug_macro   0x00000000       0x8e C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .debug_macro   0x00000000       0x51 C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .debug_macro   0x00000000      0x103 C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .debug_macro   0x00000000       0x6a C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .debug_macro   0x00000000      0x1df C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .debug_macro   0x00000000       0x1c C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .debug_macro   0x00000000       0x22 C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .debug_macro   0x00000000       0xfb C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .debug_macro   0x00000000     0x1305 C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .debug_macro   0x00000000      0x11f C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .debug_macro   0x00000000       0x27 C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .debug_macro   0x00000000    0x258f9 C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .debug_macro   0x00000000      0x174 C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
- .debug_macro   0x00000000       0x22 C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
+                0x00000000       0x4c C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .debug_macro   0x00000000      0xa6c C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .debug_macro   0x00000000       0x3b C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .debug_macro   0x00000000       0x22 C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .debug_macro   0x00000000       0x8e C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .debug_macro   0x00000000       0x51 C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .debug_macro   0x00000000      0x103 C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .debug_macro   0x00000000       0x6a C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .debug_macro   0x00000000      0x1df C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .debug_macro   0x00000000       0x1c C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .debug_macro   0x00000000       0x22 C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .debug_macro   0x00000000       0xfb C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .debug_macro   0x00000000     0x1305 C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .debug_macro   0x00000000      0x11f C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .debug_macro   0x00000000       0x27 C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .debug_macro   0x00000000    0x258f9 C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .debug_macro   0x00000000      0x174 C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .debug_macro   0x00000000       0x22 C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .text          0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .data          0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .bss           0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .debug_macro   0x00000000      0xa6c C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .debug_macro   0x00000000       0x3b C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .debug_macro   0x00000000       0x22 C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .debug_macro   0x00000000       0x8e C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .debug_macro   0x00000000       0x51 C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .debug_macro   0x00000000      0x103 C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .debug_macro   0x00000000       0x6a C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .debug_macro   0x00000000      0x1df C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .debug_macro   0x00000000       0x1c C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .debug_macro   0x00000000       0x22 C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .debug_macro   0x00000000       0xfb C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .debug_macro   0x00000000     0x1305 C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .debug_macro   0x00000000      0x11f C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .debug_macro   0x00000000       0x27 C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .debug_macro   0x00000000    0x258f9 C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .debug_macro   0x00000000      0x174 C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .debug_macro   0x00000000       0x22 C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .group         0x00000000        0xc C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .text          0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .data          0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .bss           0x00000000        0x0 C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .debug_macro   0x00000000      0xa6c C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .debug_macro   0x00000000       0x3b C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .debug_macro   0x00000000       0x22 C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .debug_macro   0x00000000       0x8e C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .debug_macro   0x00000000       0x51 C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .debug_macro   0x00000000      0x103 C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .debug_macro   0x00000000       0x6a C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .debug_macro   0x00000000      0x1df C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .debug_macro   0x00000000       0x1c C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .debug_macro   0x00000000       0x22 C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .debug_macro   0x00000000       0xfb C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .debug_macro   0x00000000     0x1305 C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .debug_macro   0x00000000      0x11f C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .debug_macro   0x00000000       0x27 C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .debug_macro   0x00000000    0x258f9 C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .debug_macro   0x00000000      0x174 C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ .debug_macro   0x00000000       0x22 C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
  .text          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
  .data          0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
  .bss           0x00000000        0x0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
@@ -393,235 +376,259 @@ sram_d4          0x38800000         0x00001000         xrw
 
 Linker script and memory map
 
-LOAD C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
-LOAD C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
-LOAD C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
-LOAD C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
+LOAD C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+LOAD C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+LOAD C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+LOAD C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
 LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a
 LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a
                 0x20020000                _estack = (ORIGIN (dtcm_ram) + LENGTH (dtcm_ram))
 
 .vectors        0x08000000      0x298
  *(.vectors)
- .vectors       0x08000000      0x298 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
+ .vectors       0x08000000      0x298 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
                 0x08000000                tab
 
-.text           0x080002a0     0x161c
+.text           0x080002a0     0x1a7c
  *(.text*)
  .text.SysTick_Handler
-                0x080002a0       0x10 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
+                0x080002a0       0x10 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
                 0x080002a0                SysTick_Handler
  .text.HardFault_Handler
-                0x080002b0       0x18 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
+                0x080002b0       0x18 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
                 0x080002b0                HardFault_Handler
  .text.DMA1_Stream0_IRQHandler
-                0x080002c8       0xf0 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
+                0x080002c8       0xf4 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
                 0x080002c8                DMA1_Stream0_IRQHandler
  .text.timer_expired
-                0x080003b8       0x26 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
-                0x080003b8                timer_expired
- *fill*         0x080003de        0x2 
+                0x080003bc       0x26 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+                0x080003bc                timer_expired
+ *fill*         0x080003e2        0x2 
  .text.startup.main
-                0x080003e0       0xfc C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
-                0x080003e0                main
- .text._reset   0x080004dc       0x4c C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
-                0x080004dc                _reset
+                0x080003e4      0x1e4 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+                0x080003e4                main
+ .text._reset   0x080005c8       0x4c C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+                0x080005c8                _reset
+ .text.spin     0x08000614       0x12 C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .text.spi_transfer
+                0x08000626       0x2c C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ *fill*         0x08000652        0x2 
+ .text.SPI_init
+                0x08000654       0x94 C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+                0x08000654                SPI_init
+ .text.read_PROM
+                0x080006e8       0x34 C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+                0x080006e8                read_PROM
+ .text.MS5611_init
+                0x0800071c       0x7c C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+                0x0800071c                MS5611_init
+ .text.read_MS5611_adc
+                0x08000798      0x114 C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+                0x08000798                read_MS5611_adc
+ .text.DMA_init
+                0x080008ac       0x94 C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+                0x080008ac                DMA_init
+ .text.BMI088_init
+                0x08000940       0x40 C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+                0x08000940                BMI088_init
  .text.BMI088_read_data
-                0x08000528       0xac C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
-                0x08000528                BMI088_read_data
- .text._write   0x080005d4       0x38 C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
-                0x080005d4                _write
- .text._fstat   0x0800060c        0x4 C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
-                0x0800060c                _fstat
- .text._sbrk    0x08000610       0x1c C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
-                0x08000610                _sbrk
- .text._close   0x0800062c        0x6 C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
-                0x0800062c                _close
- .text._isatty  0x08000632        0x4 C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
-                0x08000632                _isatty
- .text._read    0x08000636        0x6 C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
-                0x08000636                _read
- .text._lseek   0x0800063c        0x4 C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
-                0x0800063c                _lseek
+                0x08000980       0xac C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+                0x08000980                BMI088_read_data
+ .text._write   0x08000a2c       0x38 C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+                0x08000a2c                _write
+ .text._fstat   0x08000a64        0x4 C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+                0x08000a64                _fstat
+ .text._sbrk    0x08000a68       0x1c C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+                0x08000a68                _sbrk
+ .text._close   0x08000a84        0x6 C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+                0x08000a84                _close
+ .text._isatty  0x08000a8a        0x4 C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+                0x08000a8a                _isatty
+ .text._read    0x08000a8e        0x6 C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+                0x08000a8e                _read
+ .text._lseek   0x08000a94        0x4 C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+                0x08000a94                _lseek
  .text.cpu_max_init
-                0x08000640      0x1a8 C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
-                0x08000640                cpu_max_init
- .text.memcpy   0x080007e8       0x1c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
-                0x080007e8                memcpy
- .text.memset   0x08000804       0x10 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
-                0x08000804                memset
- .text.printf   0x08000814       0x30 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-printf.o)
-                0x08000814                iprintf
-                0x08000814                printf
- .text._puts_r  0x08000844       0xdc c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-puts.o)
-                0x08000844                _puts_r
- .text.puts     0x08000920       0x10 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-puts.o)
-                0x08000920                puts
+                0x08000a98      0x1a8 C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+                0x08000a98                cpu_max_init
+ .text.memcpy   0x08000c40       0x1c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+                0x08000c40                memcpy
+ .text.memset   0x08000c5c       0x10 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+                0x08000c5c                memset
+ .text.printf   0x08000c6c       0x30 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-printf.o)
+                0x08000c6c                iprintf
+                0x08000c6c                printf
+ .text._puts_r  0x08000c9c       0xdc c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-puts.o)
+                0x08000c9c                _puts_r
+ .text.puts     0x08000d78       0x10 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-puts.o)
+                0x08000d78                puts
  .text.__swbuf_r
-                0x08000930       0xa4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wbuf.o)
-                0x08000930                __swbuf_r
+                0x08000d88       0xa4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wbuf.o)
+                0x08000d88                __swbuf_r
  .text.__swsetup_r
-                0x080009d4       0xdc c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wsetup.o)
-                0x080009d4                __swsetup_r
+                0x08000e2c       0xdc c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-wsetup.o)
+                0x08000e2c                __swsetup_r
  .text.__sflush_r
-                0x08000ab0      0x10c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fflush.o)
-                0x08000ab0                __sflush_r
+                0x08000f08      0x10c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fflush.o)
+                0x08000f08                __sflush_r
  .text._fflush_r
-                0x08000bbc       0x78 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fflush.o)
-                0x08000bbc                _fflush_r
- .text.std      0x08000c34       0x48 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+                0x08001014       0x78 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fflush.o)
+                0x08001014                _fflush_r
+ .text.std      0x0800108c       0x48 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
  .text._cleanup_r
-                0x08000c7c        0xc c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
-                0x08000c7c                _cleanup_r
+                0x080010d4        0xc c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+                0x080010d4                _cleanup_r
  .text.__sfmoreglue
-                0x08000c88       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
-                0x08000c88                __sfmoreglue
+                0x080010e0       0x2c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+                0x080010e0                __sfmoreglue
  .text.__sfp_lock_acquire
-                0x08000cb4        0xc c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
-                0x08000cb4                __sfp_lock_acquire
+                0x0800110c        0xc c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+                0x0800110c                __sfp_lock_acquire
  .text.__sfp_lock_release
-                0x08000cc0        0xc c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
-                0x08000cc0                __sfp_lock_release
+                0x08001118        0xc c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+                0x08001118                __sfp_lock_release
  .text.__sinit_lock_acquire
-                0x08000ccc        0xc c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
-                0x08000ccc                __sinit_lock_acquire
+                0x08001124        0xc c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+                0x08001124                __sinit_lock_acquire
  .text.__sinit_lock_release
-                0x08000cd8        0xc c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
-                0x08000cd8                __sinit_lock_release
- .text.__sinit  0x08000ce4       0x70 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
-                0x08000ce4                __sinit
- .text.__sfp    0x08000d54       0x8c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
-                0x08000d54                __sfp
+                0x08001130        0xc c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+                0x08001130                __sinit_lock_release
+ .text.__sinit  0x0800113c       0x70 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+                0x0800113c                __sinit
+ .text.__sfp    0x080011ac       0x8c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+                0x080011ac                __sfp
  .text._fwalk_reent
-                0x08000de0       0x3e c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fwalk.o)
-                0x08000de0                _fwalk_reent
+                0x08001238       0x3e c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fwalk.o)
+                0x08001238                _fwalk_reent
  .text.__retarget_lock_init_recursive
-                0x08000e1e        0x2 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
-                0x08000e1e                __retarget_lock_init_recursive
+                0x08001276        0x2 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+                0x08001276                __retarget_lock_init_recursive
  .text.__retarget_lock_acquire_recursive
-                0x08000e20        0x2 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
-                0x08000e20                __retarget_lock_acquire_recursive
+                0x08001278        0x2 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+                0x08001278                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x08000e22        0x2 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
-                0x08000e22                __retarget_lock_release_recursive
+                0x0800127a        0x2 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+                0x0800127a                __retarget_lock_release_recursive
  .text.__swhatbuf_r
-                0x08000e24       0x4a c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-makebuf.o)
-                0x08000e24                __swhatbuf_r
- *fill*         0x08000e6e        0x2 
+                0x0800127c       0x4a c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-makebuf.o)
+                0x0800127c                __swhatbuf_r
+ *fill*         0x080012c6        0x2 
  .text.__smakebuf_r
-                0x08000e70       0x80 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-makebuf.o)
-                0x08000e70                __smakebuf_r
- .text._free_r  0x08000ef0       0x98 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-freer.o)
-                0x08000ef0                _free_r
+                0x080012c8       0x80 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-makebuf.o)
+                0x080012c8                __smakebuf_r
+ .text._free_r  0x08001348       0x98 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-freer.o)
+                0x08001348                _free_r
  .text.sbrk_aligned
-                0x08000f88       0x40 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+                0x080013e0       0x40 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
  .text._malloc_r
-                0x08000fc8       0xe8 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
-                0x08000fc8                _malloc_r
+                0x08001420       0xe8 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+                0x08001420                _malloc_r
  .text.__sfputc_r
-                0x080010b0       0x2e c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+                0x08001508       0x2e c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
  .text.__sfputs_r
-                0x080010de       0x24 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
-                0x080010de                __sfputs_r
- *fill*         0x08001102        0x2 
+                0x08001536       0x24 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+                0x08001536                __sfputs_r
+ *fill*         0x0800155a        0x2 
  .text._vfprintf_r
-                0x08001104      0x260 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
-                0x08001104                _vfprintf_r
-                0x08001104                _vfiprintf_r
+                0x0800155c      0x260 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+                0x0800155c                _vfprintf_r
+                0x0800155c                _vfiprintf_r
  .text._printf_common
-                0x08001364       0xda c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x08001364                _printf_common
- *fill*         0x0800143e        0x2 
+                0x080017bc       0xda c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x080017bc                _printf_common
+ *fill*         0x08001896        0x2 
  .text._printf_i
-                0x08001440      0x24c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x08001440                _printf_i
- .text._sbrk_r  0x0800168c       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sbrkr.o)
-                0x0800168c                _sbrk_r
- .text.__sread  0x080016ac       0x22 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o)
-                0x080016ac                __sread
+                0x08001898      0x24c c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x08001898                _printf_i
+ .text._sbrk_r  0x08001ae4       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sbrkr.o)
+                0x08001ae4                _sbrk_r
+ .text.__sread  0x08001b04       0x22 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o)
+                0x08001b04                __sread
  .text.__swrite
-                0x080016ce       0x38 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o)
-                0x080016ce                __swrite
- .text.__sseek  0x08001706       0x24 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o)
-                0x08001706                __sseek
+                0x08001b26       0x38 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o)
+                0x08001b26                __swrite
+ .text.__sseek  0x08001b5e       0x24 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o)
+                0x08001b5e                __sseek
  .text.__sclose
-                0x0800172a        0x8 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o)
-                0x0800172a                __sclose
- *fill*         0x08001732        0x2 
+                0x08001b82        0x8 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-stdio.o)
+                0x08001b82                __sclose
+ *fill*         0x08001b8a        0x2 
  .text._write_r
-                0x08001734       0x24 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-writer.o)
-                0x08001734                _write_r
+                0x08001b8c       0x24 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-writer.o)
+                0x08001b8c                _write_r
  .text._close_r
-                0x08001758       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-closer.o)
-                0x08001758                _close_r
+                0x08001bb0       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-closer.o)
+                0x08001bb0                _close_r
  .text._fstat_r
-                0x08001778       0x24 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fstatr.o)
-                0x08001778                _fstat_r
+                0x08001bd0       0x24 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-fstatr.o)
+                0x08001bd0                _fstat_r
  .text._isatty_r
-                0x0800179c       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-isattyr.o)
-                0x0800179c                _isatty_r
+                0x08001bf4       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-isattyr.o)
+                0x08001bf4                _isatty_r
  .text._lseek_r
-                0x080017bc       0x24 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lseekr.o)
-                0x080017bc                _lseek_r
- .text          0x080017e0       0xa0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memchr.o)
-                0x080017e0                memchr
+                0x08001c14       0x24 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lseekr.o)
+                0x08001c14                _lseek_r
+ *fill*         0x08001c38        0x8 
+ .text          0x08001c40       0xa0 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memchr.o)
+                0x08001c40                memchr
  .text.__malloc_lock
-                0x08001880        0xc c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
-                0x08001880                __malloc_lock
+                0x08001ce0        0xc c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
+                0x08001ce0                __malloc_lock
  .text.__malloc_unlock
-                0x0800188c        0xc c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
-                0x0800188c                __malloc_unlock
- .text._read_r  0x08001898       0x24 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-readr.o)
-                0x08001898                _read_r
+                0x08001cec        0xc c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
+                0x08001cec                __malloc_unlock
+ .text._read_r  0x08001cf8       0x24 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-readr.o)
+                0x08001cf8                _read_r
 
-.glue_7         0x080018bc        0x0
- .glue_7        0x080018bc        0x0 linker stubs
+.glue_7         0x08001d1c        0x0
+ .glue_7        0x08001d1c        0x0 linker stubs
 
-.glue_7t        0x080018bc        0x0
- .glue_7t       0x080018bc        0x0 linker stubs
+.glue_7t        0x08001d1c        0x0
+ .glue_7t       0x08001d1c        0x0 linker stubs
 
-.vfp11_veneer   0x080018bc        0x0
- .vfp11_veneer  0x080018bc        0x0 linker stubs
+.vfp11_veneer   0x08001d1c        0x0
+ .vfp11_veneer  0x08001d1c        0x0 linker stubs
 
-.v4_bx          0x080018bc        0x0
- .v4_bx         0x080018bc        0x0 linker stubs
+.v4_bx          0x08001d1c        0x0
+ .v4_bx         0x08001d1c        0x0 linker stubs
 
-.iplt           0x080018bc        0x0
- .iplt          0x080018bc        0x0 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
+.iplt           0x08001d1c        0x0
+ .iplt          0x08001d1c        0x0 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
 
-.rodata         0x080018bc      0x15f
+.rodata         0x08001d1c      0x173
  *(.rodata*)
  .rodata.HardFault_Handler.str1.1
-                0x080018bc       0x24 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
+                0x08001d1c       0x24 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
  .rodata.DMA1_Stream0_IRQHandler.str1.1
-                0x080018e0       0x77 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
+                0x08001d40       0x77 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
  .rodata.main.str1.1
-                0x08001957       0x10 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
+                0x08001db7       0x23 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
  .rodata.BMI088_read_data.str1.1
-                0x08001967        0xb C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
+                0x08001dda        0xb C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
  .rodata.cpu_max_init.str1.1
-                0x08001972       0x12 C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
+                0x08001de5       0x12 C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
+ *fill*         0x08001df7        0x1 
  .rodata.__sf_fake_stderr
-                0x08001984       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
-                0x08001984                __sf_fake_stderr
+                0x08001df8       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+                0x08001df8                __sf_fake_stderr
  .rodata.__sf_fake_stdin
-                0x080019a4       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
-                0x080019a4                __sf_fake_stdin
+                0x08001e18       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+                0x08001e18                __sf_fake_stdin
  .rodata.__sf_fake_stdout
-                0x080019c4       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
-                0x080019c4                __sf_fake_stdout
+                0x08001e38       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-findfp.o)
+                0x08001e38                __sf_fake_stdout
  .rodata._global_impure_ptr
-                0x080019e4        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
-                0x080019e4                _global_impure_ptr
+                0x08001e58        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
+                0x08001e58                _global_impure_ptr
  .rodata._vfprintf_r.str1.1
-                0x080019e8       0x11 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
+                0x08001e5c       0x11 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf.o)
  .rodata._printf_i.str1.1
-                0x080019f9       0x22 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x08001e6d       0x22 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
 
-.rel.dyn        0x08001a1c        0x0
- .rel.iplt      0x08001a1c        0x0 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
+.rel.dyn        0x08001e90        0x0
+ .rel.iplt      0x08001e90        0x0 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
 
-.data           0x24000000       0x64 load address 0x08001a1b
+.data           0x24000000       0x64 load address 0x08001e8f
                 0x24000000                _sdata = .
  *(.first_data)
  *(.data SORT_BY_NAME(.data.*))
@@ -631,12 +638,12 @@ LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc
  .data.impure_data
                 0x24000004       0x60 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
                 0x24000064                _edata = .
-                0x08001a1b                _sidata = LOADADDR (.data)
+                0x08001e8f                _sidata = LOADADDR (.data)
 
-.igot.plt       0x24000064        0x0 load address 0x08001a7f
- .igot.plt      0x24000064        0x0 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
+.igot.plt       0x24000064        0x0 load address 0x08001ef3
+ .igot.plt      0x24000064        0x0 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
 
-.bss            0x24000064       0x40 load address 0x08001a7f
+.bss            0x24000064       0x48 load address 0x08001ef3
                 0x24000064                _sbss = .
  *(.bss SORT_BY_NAME(.bss.*) COMMON)
  .bss.__lock___malloc_recursive_mutex
@@ -655,130 +662,133 @@ LOAD c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc
  .bss.__malloc_sbrk_start
                 0x2400006c        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
                 0x2400006c                __malloc_sbrk_start
- .bss.acc_x     0x24000070        0x2 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
+ .bss.acc_x     0x24000070        0x2 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
                 0x24000070                acc_x
- .bss.acc_y     0x24000072        0x2 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
+ .bss.acc_y     0x24000072        0x2 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
                 0x24000072                acc_y
- .bss.acc_z     0x24000074        0x2 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
+ .bss.acc_z     0x24000074        0x2 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
                 0x24000074                acc_z
  .bss.accel_rx_buf
-                0x24000076        0x8 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
+                0x24000076        0x8 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
                 0x24000076                accel_rx_buf
- *fill*         0x2400007e        0x2 
- .bss.errno     0x24000080        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
-                0x24000080                errno
+ .bss.accel_tx_buf
+                0x2400007e        0x8 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+                0x2400007e                accel_tx_buf
+ *fill*         0x24000086        0x2 
+ .bss.errno     0x24000088        0x4 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
+                0x24000088                errno
  .bss.gyro_rx_buf
-                0x24000084        0x7 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
-                0x24000084                gyro_rx_buf
+                0x2400008c        0x7 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+                0x2400008c                gyro_rx_buf
  .bss.gyro_tx_buf
-                0x2400008b        0x7 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
-                0x2400008b                gyro_tx_buf
- .bss.gyro_x    0x24000092        0x2 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
-                0x24000092                gyro_x
- .bss.gyro_y    0x24000094        0x2 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
-                0x24000094                gyro_y
- .bss.gyro_z    0x24000096        0x2 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
-                0x24000096                gyro_z
- .bss.heap.0    0x24000098        0x4 C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .bss.imu_type  0x2400009c        0x1 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- *fill*         0x2400009d        0x3 
- .bss.s_ticks   0x240000a0        0x4 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
-                0x240000a4                _ebss = .
-                0x240000a8                . = ALIGN (0x8)
-                0x240000a8                _end = .
+                0x24000093        0x7 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+                0x24000093                gyro_tx_buf
+ .bss.gyro_x    0x2400009a        0x2 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+                0x2400009a                gyro_x
+ .bss.gyro_y    0x2400009c        0x2 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+                0x2400009c                gyro_y
+ .bss.gyro_z    0x2400009e        0x2 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+                0x2400009e                gyro_z
+ .bss.heap.0    0x240000a0        0x4 C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .bss.imu_type  0x240000a4        0x1 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ *fill*         0x240000a5        0x3 
+ .bss.s_ticks   0x240000a8        0x4 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+                0x240000ac                _ebss = .
+                0x240000b0                . = ALIGN (0x8)
+                0x240000b0                _end = .
 OUTPUT(firmware.elf elf32-littlearm)
 LOAD linker stubs
 
-.debug_info     0x00000000     0x3f2f
- .debug_info    0x00000000     0x178d C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .debug_info    0x0000178d     0x17aa C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .debug_info    0x00002f37      0x476 C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .debug_info    0x000033ad      0xb82 C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
+.debug_info     0x00000000     0x4353
+ .debug_info    0x00000000     0x1bb1 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .debug_info    0x00001bb1     0x17aa C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .debug_info    0x0000335b      0x476 C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .debug_info    0x000037d1      0xb82 C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
 
 .debug_abbrev   0x00000000      0x9e9
- .debug_abbrev  0x00000000      0x396 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .debug_abbrev  0x00000396      0x315 C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .debug_abbrev  0x000006ab      0x1a3 C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .debug_abbrev  0x0000084e      0x19b C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
+ .debug_abbrev  0x00000000      0x396 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .debug_abbrev  0x00000396      0x315 C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .debug_abbrev  0x000006ab      0x1a3 C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .debug_abbrev  0x0000084e      0x19b C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
 
-.debug_loc      0x00000000      0xfab
- .debug_loc     0x00000000      0x368 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .debug_loc     0x00000368      0x991 C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .debug_loc     0x00000cf9      0x26c C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .debug_loc     0x00000f65       0x46 C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
+.debug_loc      0x00000000     0x123b
+ .debug_loc     0x00000000      0x5f8 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .debug_loc     0x000005f8      0x991 C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .debug_loc     0x00000f89      0x26c C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .debug_loc     0x000011f5       0x46 C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
 
 .debug_aranges  0x00000000      0x120
  .debug_aranges
-                0x00000000       0x48 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
+                0x00000000       0x48 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
  .debug_aranges
-                0x00000048       0x68 C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
+                0x00000048       0x68 C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
  .debug_aranges
-                0x000000b0       0x50 C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
+                0x000000b0       0x50 C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
  .debug_aranges
-                0x00000100       0x20 C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
+                0x00000100       0x20 C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
 
-.debug_ranges   0x00000000      0x348
- .debug_ranges  0x00000000       0xf8 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .debug_ranges  0x000000f8      0x1d0 C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .debug_ranges  0x000002c8       0x70 C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .debug_ranges  0x00000338       0x10 C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
+.debug_ranges   0x00000000      0x338
+ .debug_ranges  0x00000000       0xe8 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .debug_ranges  0x000000e8      0x1d0 C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .debug_ranges  0x000002b8       0x70 C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .debug_ranges  0x00000328       0x10 C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
 
 .debug_macro    0x00000000    0x282b3
- .debug_macro   0x00000000      0x107 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .debug_macro   0x00000107      0xa6c C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .debug_macro   0x00000b73       0x3b C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .debug_macro   0x00000bae       0x22 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .debug_macro   0x00000bd0       0x8e C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .debug_macro   0x00000c5e       0x51 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .debug_macro   0x00000caf      0x103 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .debug_macro   0x00000db2       0x6a C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .debug_macro   0x00000e1c      0x1df C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .debug_macro   0x00000ffb       0x1c C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .debug_macro   0x00001017       0x22 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .debug_macro   0x00001039       0xfb C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .debug_macro   0x00001134     0x1305 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .debug_macro   0x00002439      0x11f C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .debug_macro   0x00002558       0x27 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .debug_macro   0x0000257f    0x258f9 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .debug_macro   0x00027e78       0x22 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .debug_macro   0x00027e9a      0x174 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .debug_macro   0x0002800e       0xe3 C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .debug_macro   0x000280f1       0xdf C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .debug_macro   0x000281d0       0xe3 C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
+ .debug_macro   0x00000000      0x107 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .debug_macro   0x00000107      0xa6c C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .debug_macro   0x00000b73       0x3b C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .debug_macro   0x00000bae       0x22 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .debug_macro   0x00000bd0       0x8e C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .debug_macro   0x00000c5e       0x51 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .debug_macro   0x00000caf      0x103 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .debug_macro   0x00000db2       0x6a C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .debug_macro   0x00000e1c      0x1df C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .debug_macro   0x00000ffb       0x1c C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .debug_macro   0x00001017       0x22 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .debug_macro   0x00001039       0xfb C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .debug_macro   0x00001134     0x1305 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .debug_macro   0x00002439      0x11f C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .debug_macro   0x00002558       0x27 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .debug_macro   0x0000257f    0x258f9 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .debug_macro   0x00027e78       0x22 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .debug_macro   0x00027e9a      0x174 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .debug_macro   0x0002800e       0xe3 C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .debug_macro   0x000280f1       0xdf C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .debug_macro   0x000281d0       0xe3 C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
 
-.debug_line     0x00000000     0x1a5c
- .debug_line    0x00000000      0x665 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .debug_line    0x00000665      0xac3 C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .debug_line    0x00001128      0x427 C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .debug_line    0x0000154f      0x50d C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
+.debug_line     0x00000000     0x1bd3
+ .debug_line    0x00000000      0x7dc C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .debug_line    0x000007dc      0xac3 C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .debug_line    0x0000129f      0x427 C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .debug_line    0x000016c6      0x50d C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
 
-.debug_str      0x00000000    0xe6979
- .debug_str     0x00000000    0xe665e C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
-                              0xe697a (size before relaxing)
- .debug_str     0x000e665e       0xfb C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
+.debug_str      0x00000000    0xe697f
+ .debug_str     0x00000000    0xe66b3 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+                              0xe69e5 (size before relaxing)
+ .debug_str     0x000e66b3       0xac C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
                               0xe67ac (size before relaxing)
- .debug_str     0x000e6759       0x67 C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
+ .debug_str     0x000e675f       0x67 C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
                               0xe5bc8 (size before relaxing)
- .debug_str     0x000e67c0      0x1b9 C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
+ .debug_str     0x000e67c6      0x1b9 C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
                               0xe5f76 (size before relaxing)
 
 .comment        0x00000000       0x49
- .comment       0x00000000       0x49 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
+ .comment       0x00000000       0x49 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
                                  0x4a (size before relaxing)
- .comment       0x00000049       0x4a C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .comment       0x00000049       0x4a C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .comment       0x00000049       0x4a C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
+ .comment       0x00000049       0x4a C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .comment       0x00000049       0x4a C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .comment       0x00000049       0x4a C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
 
 .ARM.attributes
                 0x00000000       0x32
  .ARM.attributes
-                0x00000000       0x34 C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
+                0x00000000       0x34 C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
  .ARM.attributes
-                0x00000034       0x34 C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
+                0x00000034       0x34 C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
  .ARM.attributes
-                0x00000068       0x34 C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
+                0x00000068       0x34 C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
  .ARM.attributes
-                0x0000009c       0x34 C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
+                0x0000009c       0x34 C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
  .ARM.attributes
                 0x000000d0       0x34 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
  .ARM.attributes
@@ -835,10 +845,10 @@ LOAD linker stubs
                 0x00000600       0x34 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
 
 .debug_frame    0x00000000      0xab8
- .debug_frame   0x00000000       0x9c C:\Users\sally\AppData\Local\Temp\ccqar7tQ.o
- .debug_frame   0x0000009c      0x128 C:\Users\sally\AppData\Local\Temp\ccYmmnEJ.o
- .debug_frame   0x000001c4       0x8c C:\Users\sally\AppData\Local\Temp\ccFXZyjO.o
- .debug_frame   0x00000250       0x28 C:\Users\sally\AppData\Local\Temp\ccGmq9ta.o
+ .debug_frame   0x00000000       0x9c C:\Users\sally\AppData\Local\Temp\ccEtqIi2.o
+ .debug_frame   0x0000009c      0x128 C:\Users\sally\AppData\Local\Temp\ccLOcWkn.o
+ .debug_frame   0x000001c4       0x8c C:\Users\sally\AppData\Local\Temp\ccwKdlZZ.o
+ .debug_frame   0x00000250       0x28 C:\Users\sally\AppData\Local\Temp\ccLdA6b0.o
  .debug_frame   0x00000278       0x28 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
  .debug_frame   0x000002a0       0x20 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
  .debug_frame   0x000002c0       0x74 c:/program files (x86)/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-printf.o)
