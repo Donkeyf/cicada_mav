@@ -61,6 +61,12 @@ static inline void uart_write_buf(USART_TypeDef *uart, char *buf, size_t len) {
   while (len-- > 0) uart_write_byte(uart, *(uint8_t *) buf++);
 }
 
+void read_rc(USART_TypeDef *uart){
+    // enable idle flag
+    uart->CR1 |= bit(4);
+
+    
+}
 
 
 ////////////////////    SPI FUNCTIONS   ////////////////////

@@ -114,7 +114,7 @@ void DMA_init(SPI_TypeDef *spi){
 
     // set peripheral size, memory size, direction (M to P), memory inc off
     DMA1_Stream1->CR &= ~(DMA_SxCR_MSIZE_Msk | DMA_SxCR_PSIZE_Msk | BIT(10) | DMA_SxCR_DIR_Msk);    
-    DMA1_Stream1->CR |= BIT(6) | BIT(10);;
+    DMA1_Stream1->CR |= BIT(6) | BIT(10);
 
     // set peripheral size, memory size, direction (P to M), memory inc off
     DMA1_Stream0->CR &= ~(DMA_SxCR_MSIZE_Msk | DMA_SxCR_PSIZE_Msk | DMA_SxCR_DIR_Msk);    

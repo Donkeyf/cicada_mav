@@ -80,6 +80,10 @@ void DMA1_Stream0_IRQHandler(void){
 	}
 }
 
+void UART8_IRQHandler(void){
+  
+}
+
 
 ///////              RESET HANDLER (MAKE SURE TO CHECK JUST THIS ON BOARD)
 // Startup code
@@ -131,7 +135,8 @@ int main(void){
   RCC->APB1LENR |= BIT(31); // enable UART8 clock
 
   cpu_max_init();
-  uart_init(UART8, 120000000 / 100000); // non standard baud rate for sbus
+  uart_init(UART8, 120000000 / 100000); // non standard baud rate for sbus (100k)
+
 
 
 }
