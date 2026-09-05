@@ -45,6 +45,7 @@ void HardFault_Handler(void) {
   printf("CFSR=%08lx, HFSR=%08lx, BFAR=%08lx\n", SCB->CFSR, SCB->CFSR, SCB->BFAR);
 }
 
+
 void DMA1_Stream0_IRQHandler(void){
   if (DMA1->LISR & DMA_LISR_TCIF0){
 		DMA1->LIFCR = DMA_LIFCR_CTCIF0 | DMA_LIFCR_CTCIF1 | DMA_LIFCR_CHTIF0 | DMA_LIFCR_CHTIF1
@@ -80,8 +81,28 @@ void DMA1_Stream0_IRQHandler(void){
 	}
 }
 
+
+uint8_t sbus_frame_len = 25;
+uint8_t sbus_buf[25];
+// ask for sbus packet
 void UART8_IRQHandler(void){
+  // turn on dma once idle detected
+  DMA1_Stream2->CR &= ~DMA_SxCR_EN;
+  while (DMA1_Stream2->CR & DMA_SxCR_EN);
+  DMA1_Stream2->M0AR = (uint8_t)sbus_buf;
+  DMA1_Stream2->NDTR = sbus_frame_len;
+  DMA1_Stream2->CR |= DMA_SxCR_EN;
+  UART8->CR1 &= ~bit(4);  // turn off idle flag until needed
+
+}
+
+
+void DMA1_Stream2_IRQHandler(void){
+if (DMA1->LISR & DMA_LISR_TCIF2){
+		DMA1->LIFCR = DMA_LIFCR_CTCIF2 | DMA_LIFCR_CHTIF2 | DMA_LIFCR_CTEIF2;	// clear DMA transfer complete flag 
+
   
+  // TODO decide if need do to anything else
 }
 
 
@@ -105,6 +126,8 @@ __attribute__((section(".vectors"))) void (*const tab[16 + 150])(void) = {
   [3] = HardFault_Handler,
   [15] = SysTick_Handler,
   [16 + DMA1_Stream0_IRQn] = DMA1_Stream0_IRQHandler,
+  [16 + DMA1_Stream2_IRQn] = DMA1_Stream2_IRQHandler,
+  [16 + UART8_IRQn] = UART8_IRQHandler
 };
 
 
