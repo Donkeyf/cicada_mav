@@ -86,14 +86,6 @@ static inline void spi_write_byte(SPI_TypeDef *spi, uint8_t byte){
     //(void)spi->RXDR; // discard received byte
 }
 
-// static inline uint8_t spi_transfer(SPI_TypeDef *spi, uint8_t byte){
-//     spi_write_byte(spi, byte);
-//     uart_write_buf(UART5, "A\r\n", 3);
-//     while(!(spi_read_ready(spi)));
-//     uart_write_buf(UART5, "B\r\n", 3);
-//     return spi_read_byte(spi);
-// }
-
 static inline uint8_t spi_transfer(SPI_TypeDef *spi, uint8_t byte){
     while (!(spi->SR & BIT(1))); // TXP
     *((volatile uint8_t *)&spi->TXDR) = byte;
@@ -117,6 +109,5 @@ void BMI088_init(SPI_TypeDef *spi, uint8_t cs_accel);
 void BMI_read_test(SPI_TypeDef *spi, uint8_t cs);
 void BMI088_read_data(SPI_TypeDef *spi, uint8_t* rx_buf, uint8_t* tx_buf, uint8_t buf_len, uint8_t cs, uint8_t reg);
 void cpu_max_init();
-
 
 #endif
