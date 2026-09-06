@@ -64,9 +64,10 @@ static inline void uart_write_buf(USART_TypeDef *uart, char *buf, size_t len) {
 void read_rc(USART_TypeDef *uart){
     // enable idle flag
     uart->CR1 |= bit(4);
-
-    
 }
+
+void sbus_init(USART_TypeDef *uart);
+void parse_sbus_data(uint8_t *sbus_buf, uint16_t* channel_data, bool* failsafe, bool* frame_lost);
 
 
 ////////////////////    SPI FUNCTIONS   ////////////////////

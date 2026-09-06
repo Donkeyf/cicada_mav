@@ -96,12 +96,17 @@ void UART8_IRQHandler(void){
 
 }
 
-
+uint8_t start_byte;
+uint16_t channel_data[16];
+bool failsafe;
+bool frame_lost;
 void DMA1_Stream2_IRQHandler(void){
 if (DMA1->LISR & DMA_LISR_TCIF2){
 		DMA1->LIFCR = DMA_LIFCR_CTCIF2 | DMA_LIFCR_CHTIF2 | DMA_LIFCR_CTEIF2;	// clear DMA transfer complete flag 
+}
 
-  
+  start_byte = sbus_buf[0];
+  parse_sbus_data(sbus_buf, channel_data, failsafe, frame_lost);
   // TODO decide if need do to anything else
 }
 
